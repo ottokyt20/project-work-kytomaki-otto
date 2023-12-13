@@ -14,7 +14,7 @@ App can be compiled and run with the command:
 javac *.java && java ContactsApp.java 
 ```
 
-Application has an cli-interface, so user inputs data in a command line. There is a "control panel" in the app, which guides user:
+Application has a command line user interface, so user inputs data in a command line. There is a "control panel" in the app, which guides user:
 
 ```
 Control panel
