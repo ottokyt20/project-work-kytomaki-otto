@@ -1,2 +1,1 @@
-# project-work-kytomaki-otto
-Introduction to Programming - Project Work
+# Introduction to Programming - Project Work - Otto Kytömäki 
