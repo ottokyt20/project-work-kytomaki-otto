@@ -1,10 +1,10 @@
 # Introduction to Programming - Project Work - Otto Kytömäki
 
-## About the project
+## About the project and its features
 
 Screencast link:
 
-ProjThis project is a simple contact application. User can create, remove, edit and display contacts. Contact data includes the following: first name, last name, phonenumber, email address, address (street name and house number) and personal id (finnish). Contacts are stored in a csv-file.  
+This Java-project was made during Introduction to Programming course. This project is a simple contacts application. User can create, remove, edit and display contacts. Contact data includes the following: first name, last name, phonenumber, email address, address (street name and house number) and personal id (finnish). Contacts are stored in a csv-file. User input is validated.
 
 
 ## How to use?
@@ -46,12 +46,14 @@ public static void CreateContact() {
             }
 ```
 
-In this example it's shown, how user input is gathered for a first name. User input is collected and then validated using different methods.
+In this example it's shown, how user input is gathered for a first name. User input is collected and then validated using different methods. 
+
+
 
 ## Credits
 
 https://www.geeksforgeeks.org/java/?ref=shm_outind
 
-Very helpful site, for example when learning about Java IO FileReader Class or different Java methods.
+Very helpful site, for example, when learning about Java IO FileReader Class or different Java methods.
 
 
