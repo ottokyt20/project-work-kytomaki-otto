@@ -11,7 +11,7 @@ This Java project was made during Introduction to Programming course. This proje
 
 App can be compiled and run with the command: 
 ``` 
-cd src && javac *.java && java ContactsApp.java 
+cd src/ && javac *.java && java ContactsApp.java 
 ```
 
 Application has a command line user interface, so user inputs data in a command line. There is a "control panel" in the app, which guides user:
