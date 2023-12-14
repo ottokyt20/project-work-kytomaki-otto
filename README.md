@@ -2,16 +2,16 @@
 
 ## About the project and its features
 
-Screencast link:
+Screencast link: https://youtu.be/EoJJSCD1eRY
 
-This Java-project was made during Introduction to Programming course. This project is a simple contacts application. User can create, remove, edit and display contacts. Contact data includes the following: first name, last name, phonenumber, email address, address (street name and house number) and personal id (finnish). Contacts are stored in a csv-file. User input is validated.
+This Java project was made during Introduction to Programming course. This project is a simple contacts application. User can create, remove, edit and display contacts. Contact data includes the following: first name, last name, phonenumber, email address, address (street name and house number) and personal id (finnish). Contacts are stored in a csv-file. User input is validated.
 
 
 ## How to use?
 
-App can be compiled and run with the command:
+App can be compiled and run with the command: 
 ``` 
-javac *.java && java ContactsApp.java 
+cd src && javac *.java && java ContactsApp.java 
 ```
 
 Application has a command line user interface, so user inputs data in a command line. There is a "control panel" in the app, which guides user:
@@ -53,6 +53,6 @@ In this example it's shown, how user input is gathered for a first name. User in
 
 https://www.geeksforgeeks.org/java/?ref=shm_outind
 
-Very helpful site, for example, when learning about Java IO FileReader Class or different Java methods.
+**Very** helpful site, for example, when learning about Java IO FileReader Class or different Java methods.
 
 
