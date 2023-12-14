@@ -25,7 +25,6 @@ Control panel
 5: Quit
 ```
 
-
 ## Code Example
 
 ```
