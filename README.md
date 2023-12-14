@@ -43,7 +43,7 @@ public static void CreateContact() {
             System.out.println();
             System.out.println("Please enter a valid first name");
             firstname = c.readLine();
-            }
+        }
 ```
 
 In this example it's shown, how user input is gathered for a first name. User input is collected and then validated using different methods. 
