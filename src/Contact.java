@@ -98,7 +98,7 @@ public class Contact { //own class for object creation
      * {@code AddToFile} method adds contact information to the csv-file.
      */    
     public String AddToFile() { 
-        return String.join(", ", firstname, lastname, phonenumber, email, address, idnumber);
+        return String.join(", ",firstname, lastname, phonenumber, email, address, idnumber);
     }
 
      /**
