@@ -331,7 +331,6 @@ public class ContactsApp {
             }
         }
 
-
     /**
      * {@code LoadFile} method is used to load contact info from the file, so the data doesn't disappear when the app shuts down and
      * is started again.
