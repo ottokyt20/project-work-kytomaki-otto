@@ -194,7 +194,7 @@ public class ContactsApp {
      */
    public static void UpdateContact() {
     
-    if (contactlist.isEmpty()) { // Java's own method for arraylist, it is checking if the list is empty or not.
+        if (contactlist.isEmpty()) { // Java's own method for arraylist, it is checking if the list is empty or not.
         System.out.println("No contacts currently saved! If you create some contacts, you can update them here");
         } else {
             
