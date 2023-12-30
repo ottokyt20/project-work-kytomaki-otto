@@ -7,7 +7,7 @@ public class Contact { //own class for object creation
     String lastname = "";
     String phonenumber = "";
     String email = "";
-    String address = "";
+    String address = ""; 
     String idnumber = "";
     
     /**
