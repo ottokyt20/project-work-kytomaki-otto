@@ -166,28 +166,27 @@ public class ContactsApp {
         if (contactlist.isEmpty()) {
             System.out.println("No contacts currently saved! If you create some contacts, you can delete them here");
             } else {
-            
-            DisplayAllContacts();
+                DisplayAllContacts();
 
-            Console c = System.console();
-            System.out.println("Which contact do you want to remove(index)? If you want to remove all contacts, type: -1");
-            int removeChoice = Integer.parseInt(c.readLine());
+                Console c = System.console();
+                System.out.println("Which contact do you want to remove(index)? If you want to remove all contacts, type: -1");
+                int removeChoice = Integer.parseInt(c.readLine());
 
-            while (removeChoice >= contactlist.size()) {
-                System.out.println();
-                System.out.println("Give valid index");
-                removeChoice = Integer.parseInt(c.readLine());
-            }
+                while (removeChoice >= contactlist.size()) {
+                    System.out.println();
+                    System.out.println("Give valid index");
+                    removeChoice = Integer.parseInt(c.readLine());
+                }
             
-            if (removeChoice == -1) {
-                System.out.println("You chose to remove all currently saved contacts, proceeding...");
-                contactlist.clear();
-            } else {
-                System.out.println("You chose to delete contact in index " + removeChoice);
-                contactlist.remove(removeChoice);
+                if (removeChoice == -1) {
+                    System.out.println("You chose to remove all currently saved contacts, proceeding...");
+                    contactlist.clear();
+                } else {
+                    System.out.println("You chose to delete contact in index " + removeChoice);
+                    contactlist.remove(removeChoice);
+                    }
                 }
             }
-        }
     /**
      * {@code UpdateContact} method is used to update a contact which already exists. Index and new contact information is asked.
      * Information is validated. 
@@ -197,7 +196,6 @@ public class ContactsApp {
         if (contactlist.isEmpty()) { // Java's own method for arraylist, it is checking if the list is empty or not.
         System.out.println("No contacts currently saved! If you create some contacts, you can update them here");
         } else {
-            
             DisplayAllContacts();
 
             Console c = System.console();
@@ -313,7 +311,7 @@ public class ContactsApp {
             System.out.println("address: " + contact.GetAddress());
             System.out.println("personal ID: " + contact.GetID()); 
             System.out.println();
-            }
+        }
 
 
     /**
